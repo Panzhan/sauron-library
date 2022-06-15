@@ -6,6 +6,8 @@ const arr = [
   { id: 4, name: "ddd" },
 ];
 const deduplication = ({ target = [], key = '' }) => {
+  if(!target.length) return false
+  if(!key) return false
   let obj = {};
   return target.reduce((prev, cur, idx, arr) => {
     !obj[cur[key]]
