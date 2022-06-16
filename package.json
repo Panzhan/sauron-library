@@ -1,0 +1,12 @@
+{
+  "name": "klook-demo",
+  "version": "1.0.1",
+  "description": "This is npm test",
+  "main": "demo/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Front-end"],
+  "author": "sauronphy",
+  "license": "ISC"
+}
