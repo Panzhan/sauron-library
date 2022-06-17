@@ -1,8 +1,8 @@
 {
   "name": "sauron-npm",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "This is the npm repository for sauron.pan",
-  "main": "demo/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
