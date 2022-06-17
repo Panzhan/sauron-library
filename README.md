@@ -1,10 +1,10 @@
 <!--
  * @Descripttion: 
- * @version: 1.0.6
+ * @version: 1.0.7
  * @Author: sauron.pan
  * @Date: 2022-06-16 19:00:35
  * @LastEditors: sauron.pan
- * @LastEditTime: 2022-06-17 16:47:25
+ * @LastEditTime: 2022-06-17 17:44:26
 -->
 # sauron-npm
 
@@ -12,9 +12,9 @@
 郑总愿不愿意和我一起维护这个 npm 仓库(手动狗头)
 ```
 
-安装（latest：1.0.6）
+安装（latest：1.0.7）
 ```
-npm i sauron-npm@1.0.6
+npm i sauron-npm
 ```
 
 引入

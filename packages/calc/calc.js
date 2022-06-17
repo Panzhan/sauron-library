@@ -4,7 +4,7 @@
  * @Author: sauron.pan
  * @Date: 2022-06-16 18:30:29
  * @LastEditors: sauron.pan
- * @LastEditTime: 2022-06-17 16:47:36
+ * @LastEditTime: 2022-06-17 17:44:00
  */
 
 
@@ -43,7 +43,7 @@ const subtraction = ({ x, y } = {}) => {
   return (x * Math.pow(10, lmax) - y * Math.pow(10, lmax)) / Math.pow(10, lmax)
 }
 // 乘
-const multiplication = ({ x, y }) => {
+const multiplication = ({ x, y } = {}) => {
   const { lx,ly } = getDecimalLength({ x, y })
   return (x * Math.pow(10, lx)) * (y * Math.pow(10, ly)) / Math.pow(10, lx + ly)
 }
