@@ -1,6 +1,2 @@
-node_modules
-bundle.js
-
 #测试页面
-*.test.html
-/src/stay.html
+*.test.*
