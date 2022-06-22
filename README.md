@@ -4,15 +4,11 @@
  * @Author: sauron.pan
  * @Date: 2022-06-16 19:00:35
  * @LastEditors: sauron.pan
- * @LastEditTime: 2022-06-22 14:26:19
+ * @LastEditTime: 2022-06-22 15:16:14
 -->
 # sauron-npm
 
-```
-郑总愿不愿意和我一起维护这个 npm 仓库(手动狗头)
-```
-
-安装（latest：1.0.8）
+安装（latest：1.0.9）
 ```
 npm i sauron-npm
 ```

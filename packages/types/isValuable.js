@@ -4,14 +4,14 @@
  * @Author: sauron.pan
  * @Date: 2022-06-22 13:42:53
  * @LastEditors: sauron.pan
- * @LastEditTime: 2022-06-22 14:21:08
+ * @LastEditTime: 2022-06-22 15:53:37
  */
 const { type } = require('./type')
 
 // 判断值是否有效 非undefined, 非null, 非'', 非[], 非{}, 非NaN
 const isValuable = (value) => {
   const t = type(value)
-  if(isNaN(value)) return false
+  if(t === 'Number' && isNaN(value)) return false
   if(['Undefined', 'Null'].includes(t)) return false
   if(['String', 'Array'].includes(t) && !value.length) return false
   if(t === 'Object' && !Object.keys(value).length) return false
