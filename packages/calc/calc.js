@@ -4,7 +4,7 @@
  * @Author: sauron.pan
  * @Date: 2022-06-16 18:30:29
  * @LastEditors: sauron.pan
- * @LastEditTime: 2022-06-17 17:44:00
+ * @LastEditTime: 2022-06-22 13:41:32
  */
 
 
@@ -70,8 +70,6 @@ const intercept = ({ resources, digits } = {}) => {
     return result.substring(0, result.length - (lx - digits))
   }
 }
-
-
 
 module.exports = {
   getDecimalLength, // 获取小数点长度

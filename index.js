@@ -4,11 +4,13 @@
  * @Author: sauron.pan
  * @Date: 2022-06-16 18:30:13
  * @LastEditors: sauron.pan
- * @LastEditTime: 2022-06-17 16:46:49
+ * @LastEditTime: 2022-06-22 14:28:14
  */
 
+const calc = require('./packages/calc/index')
+const types = require('./packages/types/index')
 
-let calc = require('./packages/calc/index')
 module.exports = {
-  ...calc
+  ...calc,
+  ...types
 }

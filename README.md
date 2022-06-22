@@ -4,7 +4,7 @@
  * @Author: sauron.pan
  * @Date: 2022-06-16 19:00:35
  * @LastEditors: sauron.pan
- * @LastEditTime: 2022-06-17 17:44:26
+ * @LastEditTime: 2022-06-22 14:26:19
 -->
 # sauron-npm
 
@@ -12,12 +12,12 @@
 郑总愿不愿意和我一起维护这个 npm 仓库(手动狗头)
 ```
 
-安装（latest：1.0.7）
+安装（latest：1.0.8）
 ```
 npm i sauron-npm
 ```
 
-引入
+引入函数，以计算为例
 ```
 let _ = require('sauron-npm')
 // console.log('_', _)    
