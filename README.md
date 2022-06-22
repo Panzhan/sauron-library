@@ -1,5 +1,16 @@
 
-# [sauron-library](https://www.npmjs.com/package/sauron-library) node环境使用
+# [sauron-library](https://www.npmjs.com/package/sauron-library) 轻量级，纯净版JS函数库
+
+
++ JS浮点数计算全家桶
++ 数组对象去重
++ 深拷贝
++ 防抖截流
++ ...
+
+
+
+# node环境使用
 
 ### 安装
 ```
@@ -36,36 +47,46 @@ const addInterceptRes = calc.intercept({resources: addRes, digits: 2})
 console.log(addInterceptRes) // 0.32
 ```
 
-# [sauron-library](https://www.npmjs.com/package/sauron-library) browser环境
+# browser环境
 
 ### mac环境创建文件夹及相关目录
 
-1.切到根目录下的 Documents
+#### 1.切到根目录下的 Documents
 ```
 cd ~/Documents
 ```
-2.创建一个空文件夹 demo
+#### 2.创建一个空文件夹 demo
 ```
 mkdir demo && cd demo
 ```
 
-3.文件夹 demo 下创建 main.js, bundle.js 和 n.html 三个文件
+#### 3.文件夹 demo 下创建 main.js, bundle.js 和 n.html 三个文件
 ```
 touch main.js && touch bundle.js && touch n.html
 ```
 
 ### 安装依赖
-1.下载 [sauron-library](https://www.npmjs.com/package/sauron-npm)
+#### 1.下载 [sauron-library](https://www.npmjs.com/package/sauron-npm)
 ```
 npm i sauron-library
 ```
 
-2.下载 [browserify](https://www.npmjs.com/package/browserify) (node环境不需要)
+#### 2.下载 [browserify](https://www.npmjs.com/package/browserify) (node环境不需要)
+
 ```
 npm i browserify
 ```
+##### 若以上安装方式打包运行时提示
+```
+zsh: command not found: browserify
+```
 
-3.文件内容
+##### 则建议采用全局安装
+```
+npm i browserify -g
+```
+
+#### 3.文件内容
 
 #### main.js
 ```
@@ -92,9 +113,9 @@ window.Smath = Smath
 ```
 
 ### 打包 & 测试
-1.打包main.js并输出到bundle.js,终端执行命令:
+#### 1.打包main.js并输出到bundle.js,终端执行命令:
 ```
 browserify main.js -o bundle.js
 ```
 
-2.打开浏览器，在控制台查看输出
+#### 2.打开浏览器，在控制台查看输出
