@@ -1,5 +1,16 @@
 
-# [sauron-library](https://www.npmjs.com/package/sauron-library) node环境使用
+# [sauron-library](https://www.npmjs.com/package/sauron-library) 轻量级，纯净版JS函数库
+
+
++ JS浮点数计算全家桶
++ 数组对象去重
++ 深拷贝
++ 防抖截流
++ ...
+
+
+
+# node环境使用
 
 ### 安装
 ```
@@ -36,7 +47,7 @@ const addInterceptRes = calc.intercept({resources: addRes, digits: 2})
 console.log(addInterceptRes) // 0.32
 ```
 
-# [sauron-library](https://www.npmjs.com/package/sauron-library) browser环境
+# browser环境
 
 ### mac环境创建文件夹及相关目录
 
