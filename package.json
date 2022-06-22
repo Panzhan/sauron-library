@@ -1,6 +1,6 @@
 {
   "name": "sauron-library",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "This is the npm repository for sauron.pan",
   "main": "index.js",
   "scripts": {
