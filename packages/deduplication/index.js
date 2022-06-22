@@ -4,9 +4,9 @@
  * @Author: sauron.pan
  * @Date: 2022-06-21 10:02:15
  * @LastEditors: sauron.pan
- * @LastEditTime: 2022-06-22 16:04:38
+ * @LastEditTime: 2022-06-22 16:32:51
  */
-const { dedup } = require('../source')
+const { dedup } = require('./deduplication')
 
 module.exports = {
   dedup
