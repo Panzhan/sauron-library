@@ -6,16 +6,16 @@
  * @LastEditors: sauron.pan
  * @LastEditTime: 2022-06-22 16:32:57
 -->
-# sauron-npm
+# sauron-library node版本
 
-安装（latest：1.0.10）
+安装（latest：1.0.11）
 ```
-npm i sauron-npm
+npm i sauron-library
 ```
 
 引入函数，以计算为例
 ```
-let _ = require('sauron-npm')
+let _ = require('sauron-library')
 // console.log('_', _)    
 // getDecimalLength, // 获取小数点长度
 // addition, // 加

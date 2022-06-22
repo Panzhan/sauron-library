@@ -10,9 +10,11 @@
 const calc = require('./packages/calc/index')
 const types = require('./packages/types/index')
 const dedup = require('./packages/deduplication/index')
+const clone = require('./packages/deep-clone/index')
 
 module.exports = {
   ...calc,
   ...types,
-  ...dedup
+  ...dedup,
+  ...clone
 }

@@ -4,7 +4,7 @@
  * @Author: sauron.pan
  * @Date: 2022-06-22 11:29:17
  * @LastEditors: sauron.pan
- * @LastEditTime: 2022-06-22 16:00:41
+ * @LastEditTime: 2022-06-22 18:24:25
  */
 const repeatingArray = [
 	{ id: 1, name: "aa" },
@@ -14,6 +14,28 @@ const repeatingArray = [
   { id: 3, name: "ee" },
 ];
 
+const referenceObject = {
+  info: {
+    id: 1,
+    name: 'sauron',
+    age: 18,
+    city: {
+      country: 'china'
+    },
+    work: null,
+    status: function(){
+      console.log('busy')
+    }
+  },
+  phone: undefined,
+  sport: {
+    ball: ['pingpang', 'basketball'],
+    swimming: false,
+    others: []
+  },
+}
+
 module.exports = {
-  repeatingArray
+  repeatingArray,
+  referenceObject
 }
