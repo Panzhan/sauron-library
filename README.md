@@ -49,7 +49,7 @@ console.log(addInterceptRes) // 0.32
 
 # browser环境
 
-### mac环境创建文件夹及相关目录
+### Mac环境创建文件夹及相关目录
 
 #### 1.切到根目录下的 Documents
 ```
