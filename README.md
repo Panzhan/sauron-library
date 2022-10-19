@@ -24,27 +24,12 @@ npm i sauron-library@latest
 ```
 let calc = require('sauron-library')
 // console.log(calc)    
-// getDecimalLength, // 获取小数点长度
+// handlingDecimals, // 获取小数点长度
 // addition, // 加
 // subtraction, // 减
-// multiplication, // 乘
+// multiply, // 乘
 // division, // 除
-// intercept // 保留几位小数
 
-```
-
-### 调用
-
-#### 加法 参考 [RORO模式](https://zhuanlan.zhihu.com/p/34025104)
-```
-const addres = calc.addition({x: 0.1, y: 0.2})
-console.log(addres) // 0.3
-```
-#### 保留n位小数
-```
-const addRes = calc.addition({x: 0.1222, y: 0.2})
-const addInterceptRes = calc.intercept({resources: addRes, digits: 2})
-console.log(addInterceptRes) // 0.32
 ```
 
 # browser环境
@@ -107,8 +92,16 @@ window.Smath = Smath
 
 <script>
   const Smath = window.Smath
-  const res = Smath.addition({x: 0.1, y:0.2})
-  console.log(Smath, res)
+
+  const resAddition = Smath.addition(0.1, 0.2) // 0.3
+  const resSubtraction = Smath.subtraction(0.4, 0.1) // 0.3
+  const resMultiply = Smath.multiply(35.41, 100) // 3541
+  const resDivision = Smath.division(1.02, 5) // 0.204
+
+  // console.log(0.1 + 0.2) // 0.30000000000000004
+  // console.log(0.4 - 0.1) // 0.30000000000000004
+  // console.log(35.41 * 100) // 3540.9999999999995
+  // console.log(1.02 / 5) // 0.20400000000000001
 </script>
 ```
 
